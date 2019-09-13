@@ -1,0 +1,133 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2806426508" file="/home/nazim/Bureau/source-code/poolfire/Poolfire.prj" location="/home/nazim/Bureau/source-code/poolfire" name="Poolfire" target="target.mlapps" target-name="Package App">
+    <param.appname>Poolfire</param.appname>
+    <param.authnamewatermark>YAKHOU Nazim</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon>${PROJECT_ROOT}/Poolfire_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/Poolfire_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/Poolfire_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/Poolfire_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>Modelize hydrocarbon pool fires and their effects</param.summary>
+    <param.description>This application features empricial models to modelize unconfined pool fires of hydrocarbons, on the ground and with fixed spill area, with &amp; without wind. Featured models include : Solid flame model, Mudan, Zabetakis-Burgess ...
+This application can compute flame length &amp; tilt, burning rate, heatflux over distance (1D &amp; 2D* ), thermal effects - probabilities of death or injury,  and a, estimated number of injuries/death in the area</param.description>
+    <param.screenshot>/tmp/tp2a2db3c8_d36f_48fd_a0ba_51ed7748f4f0.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/home/nazim/Bureau</param.output>
+    <param.guid>6a97eb88-1de4-41d4-8d0d-6be3f6bbcd2c</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/pool_fire.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/SEP_mudan.m</file>
+      <file>${PROJECT_ROOT}/SEP_std.m</file>
+      <file>${PROJECT_ROOT}/batch_heat_flux_computation_1D.m</file>
+      <file>${PROJECT_ROOT}/batch_heat_flux_computation_2D.m</file>
+      <file>${PROJECT_ROOT}/batch_ppl_effect_computation_1D.m</file>
+      <file>${PROJECT_ROOT}/batch_ppl_effect_computation_2D.m</file>
+      <file>${PROJECT_ROOT}/burn_rate_liq_gas.m</file>
+      <file>${PROJECT_ROOT}/burn_rate_liq_hydrocarbon.m</file>
+      <file>${PROJECT_ROOT}/burning_time_computation.m</file>
+      <file>${PROJECT_ROOT}/fit_distance_to_heatflux.m</file>
+      <file>${PROJECT_ROOT}/fit_heatflux_to_distance.m</file>
+      <file>${PROJECT_ROOT}/flame_len_no_wind.m</file>
+      <file>${PROJECT_ROOT}/flame_len_wind.m</file>
+      <file>${PROJECT_ROOT}/heat_flux_solid_flame.m</file>
+      <file>${PROJECT_ROOT}/overall_effects_computation.m</file>
+      <file>${PROJECT_ROOT}/plot1Dheatflux.m</file>
+      <file>${PROJECT_ROOT}/plotHeatMap.m</file>
+      <file>${PROJECT_ROOT}/plot_heatmap_injuries.m</file>
+      <file>${PROJECT_ROOT}/plot_ppl_effects.m</file>
+      <file>${PROJECT_ROOT}/ppl_effect_computation.m</file>
+      <file>${PROJECT_ROOT}/return_distance.m</file>
+      <file>${PROJECT_ROOT}/return_heatflux.m</file>
+      <file>${PROJECT_ROOT}/single_target_heatflux.m</file>
+      <file>${PROJECT_ROOT}/tilt_computation.m</file>
+      <file>${PROJECT_ROOT}/transm_ratio_computation.m</file>
+      <file>${PROJECT_ROOT}/view_factors_computation.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/nazim" name="Bureau" optional="false">/home/nazim/Bureau</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/omni/linux-software-bins/matlab2018rB</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.15.0-58-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

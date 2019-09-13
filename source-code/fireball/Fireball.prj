@@ -1,0 +1,129 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="859362945" file="/home/nazim/Bureau/source-code/fireball/Fireball.prj" location="/home/nazim/Bureau/source-code/fireball" name="Fireball" target="target.mlapps" target-name="Package App">
+    <param.appname>Fireball</param.appname>
+    <param.authnamewatermark>YAKHOU Nazim</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon>${PROJECT_ROOT}/Fireball_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/Fireball_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/Fireball_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/Fireball_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>Modelize hydrocarbon fireballs and their effects</param.summary>
+    <param.description>This application features empricial models for hydrocarbon fireballs modelization. 
+Featured models include : TNO,Mudan, Solid flame model ... 
+This application can compute geometrical properties of the fireball as well as heatflux values over distance (1D - 2D) and its effects (probabilities of death - injuries)</param.description>
+    <param.screenshot>/tmp/tp4dfd2155_52a8_47bb_8a6c_f2ddc6e4399d.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/home/nazim/Bureau</param.output>
+    <param.guid>b8ed3ccb-7691-418f-8e57-bd7353ea9185</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/fireball.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/SEP_computation.m</file>
+      <file>${PROJECT_ROOT}/batch_heat_flux_computation_1D.m</file>
+      <file>${PROJECT_ROOT}/batch_heat_flux_computation_2D.m</file>
+      <file>${PROJECT_ROOT}/batch_ppl_effect_computation_1D.m</file>
+      <file>${PROJECT_ROOT}/batch_ppl_effect_computation_2D.m</file>
+      <file>${PROJECT_ROOT}/burning_rate_computation.m</file>
+      <file>${PROJECT_ROOT}/fit_get_distance.m</file>
+      <file>${PROJECT_ROOT}/fit_get_heatflux.m</file>
+      <file>${PROJECT_ROOT}/initial_mass_computation.m</file>
+      <file>${PROJECT_ROOT}/max_parameters_computation_TNO.m</file>
+      <file>${PROJECT_ROOT}/overall_effects_computation.m</file>
+      <file>${PROJECT_ROOT}/plot1Dheatflux.m</file>
+      <file>${PROJECT_ROOT}/plotHeatMap.m</file>
+      <file>${PROJECT_ROOT}/plot_heatmap_injuries.m</file>
+      <file>${PROJECT_ROOT}/plot_ppl_effects.m</file>
+      <file>${PROJECT_ROOT}/ppl_effect_computation.m</file>
+      <file>${PROJECT_ROOT}/return_distance.m</file>
+      <file>${PROJECT_ROOT}/return_heatflux.m</file>
+      <file>${PROJECT_ROOT}/single_heatflux_computation.m</file>
+      <file>${PROJECT_ROOT}/transmissivity.m</file>
+      <file>${PROJECT_ROOT}/view_factor_computation.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/nazim" name="Bureau" optional="false">/home/nazim/Bureau</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/omni/linux-software-bins/matlab2018rB</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>4.15.0-58-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
