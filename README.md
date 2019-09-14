@@ -47,11 +47,11 @@ ISBN 9781439826751 -
 ![fireball app](/screenshots/fireball.png?raw=true "fireball app")
 ![gasoverflow app](/screenshots/gasoverflow.png?raw=true "gasoverflow app")
 ![jet fires app](/screenshots/jet.png?raw=true "jet fires app")
-![heatflux distribution in 1D](/screenshots/untitled.png?raw=true "heatflux distribution in 1D")
-![Custom targets](/screenshots/untitled2.png?raw=true "Custom targets")
-![heatflux distribution in 2D](/screenshots/untitled3.png?raw=true "heatflux distribution in 2D")
-![Thermal effects over distance in 1D](/screenshots/untitled4.png?raw=true "Thermal effects over distance in 1D")
-![Probability of death over distance](/screenshots/untitled5.png?raw=true "Probability of death over distance")
-![Overview](/screenshots/untitled6.png?raw=true "Overview")
+![heatflux distribution in 1D](/screenshots/untitled.jpg?raw=true "heatflux distribution in 1D")
+![Custom targets](/screenshots/untitled2.jpg?raw=true "Custom targets")
+![heatflux distribution in 2D](/screenshots/untitled3.jpg?raw=true "heatflux distribution in 2D")
+![Thermal effects over distance in 1D](/screenshots/untitled4.jpg?raw=true "Thermal effects over distance in 1D")
+![Probability of death over distance](/screenshots/untitled5.jpg?raw=true "Probability of death over distance")
+![Overview](/screenshots/untitled6.jpg?raw=true "Overview")
 
 
