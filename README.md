@@ -23,6 +23,8 @@ It includes 4 applications, each for a specific phenomenon : pool fires, firebal
 
 **Jet fires** : Geometrical properties, flow properties, heatflux over distance, thermal effects - probabilities of death or injury. 
 
+You can also define custom targets at a specific distance from the center of the fire to evaluate the heatflux it receives and the probability of death/injury at that location. 
+
 **Gas outflow** :  Outflow from tanks/vessels : evolution of  flowrate, pressure, and other properties over time. 
 
 *only in no wind conditions. 
@@ -41,3 +43,15 @@ ISBN 9781439826751 -
 - Icons from :  https://svgsilh.com
 
 # Screenshots 
+![Pool fires app](/screenshots/fire.png?raw=true "Pool fires app")
+![fireball app](/screenshots/fireball.png?raw=true "fireball app")
+![gasoverflow app](/screenshots/gasoverflow.png?raw=true "gasoverflow app")
+![jet fires app](/screenshots/jet.png?raw=true "jet fires app")
+![heatflux distribution in 1D](/screenshots/untitled.png?raw=true "heatflux distribution in 1D")
+![Custom targets](/screenshots/untitled2.png?raw=true "Custom targets")
+![heatflux distribution in 2D](/screenshots/untitled3.png?raw=true "heatflux distribution in 2D")
+![Thermal effects over distance in 1D](/screenshots/untitled4.png?raw=true "Thermal effects over distance in 1D")
+![Probability of death over distance](/screenshots/untitled5.png?raw=true "Probability of death over distance")
+![Overview](/screenshots/untitled6.png?raw=true "Overview")
+
+
