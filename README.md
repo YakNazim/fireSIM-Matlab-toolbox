@@ -1,11 +1,11 @@
 # fireSIM-Matlab-toolbox
-A matlab toolbox for hydrocarbon fires modelization 
+A matlab toolbox for hydrocarbon fires modelling 
 
 # Download link : 
 You can find the download link for the toolbox and installation instructions [here](https://github.com/YakNazim/fireSIM-Matlab-toolbox/releases)
 
 # Overview : 
-fireSIM Toolbox features empricial models for hydrocarbon fire modelization. 
+fireSIM Toolbox features empirical models for hydrocarbon fire modelling. 
 
 It includes 4 applications, each for a specific phenomenon : pool fires, fireballs, jetfires, and gas outflows, with consideration to ambient conditions...
 
